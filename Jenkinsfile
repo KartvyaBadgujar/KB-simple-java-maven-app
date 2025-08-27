@@ -2,6 +2,7 @@ pipeline {
     agent any // Run on any available agent
 
     tools {
+        jdk 'JDK-21'
         maven 'maven-3.9.6' // 1. Ensure a Maven tool named 'maven-3.9.6' is configured in Jenkins
     }
 
